@@ -106,7 +106,3 @@ All features are normalised with **StandardScaler** before prediction so that hi
 - Model trained on 10,000 records flagged **500 anomalies (5.0%)** — matching the contamination parameter
 - Stream simulation on 3,000 synthetic records shows **~16% anomaly rate** — demonstrating **data drift**, a realistic production phenomenon where new data diverges from the training distribution
 - API response time: **< 200ms** per prediction on local hardware
-
----
-
-*Built with Python, Flask, scikit-learn, and a lot of Anaconda Prompt windows open simultaneously.* 😄
