@@ -103,8 +103,9 @@ All features are normalised with **StandardScaler** before prediction so that hi
 ## Setup & Installation
 
 **Prerequisites**
-
+```bash
 Anaconda (recommended) or Python 3.10+
+```
 1. Clone the repository
 2. Install dependencies
 Using Anaconda Prompt:
