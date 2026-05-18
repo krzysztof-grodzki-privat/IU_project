@@ -100,6 +100,42 @@ All features are normalised with **StandardScaler** before prediction so that hi
 | Failure rate | 3.39% (339 records) |
 
 ---
+⚙️ Setup & Installation
+Prerequisites
+Anaconda (recommended) or Python 3.10+
+1. Clone the repository
+2. Install dependencies
+Using Anaconda Prompt:
+```bash
+pip install flask scikit-learn pandas joblib mlflow
+```
+3. Train the model
+Open `model_training.ipynb` in Jupyter Notebook and run all cells. This will:
+Load and preprocess the dataset
+Train the Isolation Forest model
+Save `model/anomaly_model.pkl` and `model/scaler.pkl`
+---
+4. Running the System
+Step 1 — Start the Flask API
+Open a terminal and run:
+```bash
+python app.py
+```
+Expected output:
+```
+* Running on http://127.0.0.1:5000
+```
+Step 2 — Run the stream simulator
+Open `simulator.ipynb` in Jupyter Notebook and run all cells.
+Expected output:
+```
+ Symulator strumienia IoT uruchomiony...
+==================================================
+ Wiersz     0 | Normal   | score:  0.0821
+ Wiersz   143 | ANOMALIA | score: -0.1102 | RPM: 1463 | Torque: 68.3
+ Wiersz   200 | Normal   | score:  0.0721
+```
+log are saved in log/predictions_log.csv
 
 ## 🔍 Key Findings
 
