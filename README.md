@@ -100,8 +100,10 @@ All features are normalised with **StandardScaler** before prediction so that hi
 | Failure rate | 3.39% (339 records) |
 
 ---
-⚙️ Setup & Installation
-Prerequisites
+##⚙️ Setup & Installation
+
+**Prerequisites**
+
 Anaconda (recommended) or Python 3.10+
 1. Clone the repository
 2. Install dependencies
