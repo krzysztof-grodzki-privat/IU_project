@@ -1,4 +1,4 @@
-# 🏭 IoT Anomaly Detection System
+# IoT Anomaly Detection System
 
 > Real-time machine failure detection for industrial IoT environments — built as part of **DLBDSMTP01: Project From Model to Production** at IU International University of Applied Sciences.
 
@@ -45,7 +45,7 @@ Factory Sensors / Kaggle Dataset
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 iot_project/
@@ -88,7 +88,7 @@ All features are normalised with **StandardScaler** before prediction so that hi
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **AI4I 2020 Predictive Maintenance Dataset**
 
@@ -100,7 +100,7 @@ All features are normalised with **StandardScaler** before prediction so that hi
 | Failure rate | 3.39% (339 records) |
 
 ---
-##⚙️ Setup & Installation
+## Setup & Installation
 
 **Prerequisites**
 
@@ -139,7 +139,7 @@ Expected output:
 ```
 log are saved in log/predictions_log.csv
 
-## 🔍 Key Findings
+## Key Findings
 
 - Model trained on 10,000 records flagged **500 anomalies (5.0%)** matching the contamination parameter
 - Stream simulation on 3,000 synthetic records shows **~16% anomaly rate** demonstrating **data drift**, a realistic production phenomenon where new data diverges from the training distribution
