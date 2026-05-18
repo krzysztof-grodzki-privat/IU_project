@@ -116,7 +116,6 @@ Open `model_training.ipynb` in Jupyter Notebook and run all cells. This will:
 Load and preprocess the dataset
 Train the Isolation Forest model
 Save `model/anomaly_model.pkl` and `model/scaler.pkl`
----
 4. Running the System
 Step 1 — Start the Flask API
 Open a terminal and run:
